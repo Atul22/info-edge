@@ -1,0 +1,92 @@
+.background {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #e0e0e0;
+  padding-top: 60px;
+  box-shadow: 5px 10px;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 2% auto auto auto;
+	border: 1px;
+	padding: 5px 10px 30px 10px;
+	width: 25%;
+	border-radius: 5px
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0px 12px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input:focus {
+	box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=checkbox] {
+	margin-top: 25px;
+	vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+}
+
+label {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+button {
+  background-color: #428bca;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  float: right;
+  border-radius: 7px;
+  z-index: 1px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+img {
+  display: block;
+  margin: -1% auto auto auto;
+  height: 15%
+}
+
+p {
+	display: block;
+	color: #808080;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-left: 38%;
+	cursor: pointer;
+}
+
+span {
+	font-size: 20px
+}
